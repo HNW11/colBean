@@ -1,3 +1,193 @@
-h1{
-    font-family: sans-serif;
+/*Colors 
+Primary: #13AD72
+Secondary: #FAB81B
+*/
+
+*{
+    font-family: 'jost'
 }
+.nav-bar{
+    
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.nav-item{
+    display: inline-block;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+h1{
+    
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+.title-sub{
+    
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -55px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.welcome-container{
+    background-color: #13AD72;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-sub{
+    font-size: 25px;
+}
+
+.about-title-sub{
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.about-us-container{
+    margin: 20px 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    
+}
+
+.about-us-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-img{
+    width: 40%;
+    padding: 40px 40px 40px 0;
+}
+
+.about-us-content{
+    padding-right: 600px;
+    padding-left: 60px;
+    margin-top: -375px;
+    padding-bottom: 140px;
+    font-size: 25px;
+}
+
+span{
+    color: #13AD72;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.banner{
+    background-color: #13AD72;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-sub{
+    font-size: 25px;
+}
+
+.banner-text{
+    font-size: 20px;
+}
+
+.cta-container{
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.email-subscription{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.form{
+    display:block;
+    margin-bottom: 60px;
+}
+
+.button{
+    font-size: 12px;
+    padding: 10px;
+    width: 7.5%;
+    background-color: #FAB81B;
+}
+
+.email-input {
+    margin-right: 2.5%;
+    width: 28%;
+  }
+
+.footer-container{
+    background-color: #13AD72;
+    color: #ffffff;
+    padding: 30px;
+  }
+
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 200px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone{
+    margin-right: 203px;
+}
+
+.open{
+    margin-left: 100px;
+}
+
+.phone,
+.open{
+    margin-top: -65px;
+}
+
+
+.name{
+    font-size: 40px;
+}
+.name-sub{
+    margin-right: 120px;
+    font-size: 25px;
+    margin-top: -50px;
+}
+
+
+
+
+  
